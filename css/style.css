@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
+
+body{
+margin: 0;
+background-color: #0D0D0D;
+}
+
+.container-max{
+    background-image: url(../img/bglp_crusoe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 0 0 61px 0;
+}
+
+.container2{
+max-width: 1200px;
+margin: 0 auto;
+}
+
+a{
+color: #00C7E1;
+}
+
+h1{
+    font-size: 52px;
+    font-family: 'Roboto Slab', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.logo{
+max-width: 206px;
+margin: auto;
+display: flex;
+align-items: center;
+}
+
+.logo img {
+width: 100%;
+}
+
+.divisor{
+width: 15%;
+border: 2px solid #00C7E1;
+}
+
+.container{
+    margin: 70px auto 0;
+    display: flex;
+    max-width: 1450px;
+}
+
+.container2{
+    display: none;
+}
+
+.box1 {
+width: 40%;
+}
+
+.titulo{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 82px;
+    color: white;
+    font-weight: 700;
+    margin: 0 0 50px 0;
+    line-height: 1;
+}
+
+.subtitulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 45px;
+    font-style: italic;
+    margin: 50px 0 0;
+}
+
+.texto {
+    font-family: 'Roboto', sans-serif;
+    color: #00C7E1;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.box2 {
+display: flex;
+justify-content: flex-end;
+}
+
+.bg-form{
+background-color: #262626b3;
+border-radius: 20px;
+width: 65%;
+padding: 28px 0;
+}
+
+.chamada {
+font-family: 'Roboto', sans-serif;
+font-size: 30px;
+color: white;
+font-weight: 300;
+margin: 0 auto;
+width: 83%;
+}
+.form-texto{
+font-family: 'Roboto', sans-serif;
+font-size: 22px;
+color: white;
+font-weight: 300;
+margin: 15px auto;
+width: 83%;
+}
+
+form{
+display: block;
+width: 83%;
+margin: 0 auto;
+}
+
+.input-email {
+width: 94%;
+background-color: white;
+color: black;
+font-size: 1em;
+text-transform: none;
+border: none;
+height: 65px;
+}
+
+.input-email2 {
+    width: 97.5%;
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    text-transform: none;
+    border: none;
+    height: 65px;
+    }
+
+.input-txt {
+padding-left: 22px;
+font-size: 22px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+}
+
+.btn-submit {
+width: 100%;
+margin: 15px auto;
+padding: 25px 15px;
+background: linear-gradient(180deg, #00B9FF 0%,#005D80 100%);
+font-size: 1.3em;
+font-weight: 600;
+letter-spacing: 1px;
+text-transform: uppercase;
+display: inline-block;
+color: white;
+border: 0;
+text-decoration: none;
+cursor: pointer;
+appearance: none;
+box-shadow: 0 0 10px 0px #00B9FF;
+}
+
+.form-label{
+color: white;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 12px;
+}
+
+.seta {
+max-width: 100px;
+margin: 85px auto 0;
+text-align: center;
+}
+
+.arrow {
+border: solid white;
+border-width: 0 5px 5px 0;
+display: inline-block;
+padding: 10px;
+margin: 0 auto;
+}
+
+.down {
+transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.conteudo {
+    position: relative;
+    width: 30%;
+    margin: 15px;
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .image img{
+      width: 100%;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0e5672b0;;
+  }
+
+  .image:hover .overlay {
+    opacity: 1;
+  }
+
+  .hover-titulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 79%;
+  }
+
+  .hover-subtitulo {
+    font-family: 'Roboto Slab', sans-serif;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 79%;
+  }
+
+footer {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.rodape{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 0 30px;
+    text-align: center;
+}
+
+.logo2{
+    max-width: 206px;
+    display: flex;
+    align-items: center;
+}
+
+.logo2 img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1440px) {
+    .box1{
+        padding-left: 100px;
+    }
+
+    .box2 {
+        padding-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .box1{
+        width: 30%;
+        padding-left: 70px;
+        margin: auto;
+    }
+
+    .box2 {
+        padding-right: 70px;
+    }
+
+    .bg-form {
+        width: 80%;
+    }
+
+    .logo img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .titulo{
+        font-size: 52px;
+    }
+
+    .subtitulo{
+        font-size: 32px;
+    }
+    
+    .texto{
+        font-size: 20px;
+    }
+
+    .chamada {
+        font-size: 28px;
+    }
+
+    .form-texto {
+        font-size: 18px;
+    }
+
+    .input-txt {
+        padding-left: 16px;
+    }
+
+    .hover-titulo {
+        top: 40%;
+    }
+
+    h1 {
+        font-size: 44px;
+    }    
+}
+
+@media only screen and (max-width: 1000px) {
+    .galeria {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    .conteudo {
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 425px){
+    .container{
+        display: none;
+    }
+
+    .container2 {
+        display: block;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+}
