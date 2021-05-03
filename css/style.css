@@ -205,7 +205,7 @@ section {
 
 .slider img {
     width: 80%;
-    border-radius: 999px;
+    border-radius: 999px !important;
 }
 
 .slick-dots{
