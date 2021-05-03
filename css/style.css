@@ -411,8 +411,4 @@ footer {
     h1{
         font-size: 30px;
     }
-
-    .slick-next .slick-arrow{
-        display: none;
-    }
 }
